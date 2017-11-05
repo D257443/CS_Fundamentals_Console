@@ -19,7 +19,7 @@ namespace GuessTheNumber
             int numOfTries = 0;
 
             int answer = rnd.Next(min, max + 1);
-
+            int number;
             do
             {
                 // Vragen om input
