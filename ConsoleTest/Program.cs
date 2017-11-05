@@ -11,9 +11,14 @@ namespace ConsoleTest
         // Static en void ook voor later!
         static void Main(string[] args)
         {
+            // PascalCasing
             Console.WriteLine("Welcome to my first application.");
 
-            int myScore = 5;
+            // Declareren
+            int myScore = 3;
+            // Declareren  voor de = en initialiseren na de =
+            // camelCasing: eerste woord met kleine letter, 
+            // de rest hoofdletters
             int yourScore = 8;
             myScore = myScore + 4;
             Console.WriteLine("My score is: " + myScore);
