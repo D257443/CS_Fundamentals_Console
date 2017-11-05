@@ -12,7 +12,7 @@ namespace GuessTheNumber
         {
             Console.WriteLine("Welcome to the 'Guess The Number' game!");
 
-            Random rnd = new Random();
+            Random rnd = new Random(); 
             bool isGuessed = false;
             int min = 1;
             int max = 100;
